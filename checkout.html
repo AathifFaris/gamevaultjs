@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout- GameVault</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">GameVault</div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+      <div class="navigation">
+          <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./upcoming.html" class="active">Upcoming Games</a></li>
+              <li class="dropdown">
+                  <a href="#">Accessories</a>
+                  <div class="dropdown-content">
+                      <a href="./consoles.html">Consoles</a>
+                      <a href="./peripherals.html">Peripherals</a>
+                  </div>
+              </li>
+              <li><a href="./games.html">Games</a></li>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="./order.html">Order</a></li>
+              <li><a href="./checkout.html">Checkout</a></li>
+          </ul>
+      </div>
+      <div class="nav-buttons">
+          <a href="#" class="nav-icon"><i class="fas fa-user"></i></a>
+          <a href="#" class="nav-icon cart">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">0</span>
+          </a>
+      </div>
+  </nav>
+  </header>
+  <h1>Checkout</h1>
+
+  <!-- Order Table -->
+  <div class="table-container">
+    <table id="orderTable">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Price</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"><strong>Total:</strong></td>
+          <td id="totalPrice">$0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <!-- Checkout Form -->
+  <div class="form-container">
+    <form id="checkoutForm">
+      <h2>Customer Details</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required />
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" required />
+
+      <label for="address">Address:</label>
+      <textarea id="address" rows="3" required></textarea>
+
+      <label for="cardNumber">Card Number:</label>
+      <input type="text" id="cardNumber" maxlength="19" placeholder="1234 5678 1234 5678" required />
+
+      <button type="submit">Pay</button>
+    </form>
+  </div>
+
+  <!-- Thank You Message -->
+  <div id="thankYouMessage" class="thank-you" style="display: none;">
+    <p>Thank you for your purchase! Your order will be delivered on <span id="deliveryDate"></span>.</p>
+  </div>
+
+  <script src="./checkout.js"></script>
+
+  
+  <footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Your one-stop shop for all gaming needs</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./games.html">Games</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@gamevault.com</p>
+            <p>Phone: (555) 123-4567</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 GameVault. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>

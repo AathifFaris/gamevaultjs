@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Order Computer Parts</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./order.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">GameVault</div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+      <div class="navigation">
+          <ul>
+              <li><a href="./index.html" class="active">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./upcoming.html">Upcoming Games</a></li>
+              <li class="dropdown">
+                  <a href="#">Accessories</a>
+                  <div class="dropdown-content">
+                      <a href="./consoles.html">Consoles</a>
+                      <a href="./peripherals.html">Peripherals</a>
+                  </div>
+              </li>
+              <li><a href="./games.html">Games</a></li>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="./order.html">Order</a></li>
+              <li><a href="./checkout.html">Checkout</a></li>
+          </ul>
+      </div>
+      <div class="nav-buttons">
+          <a href="./login.html" class="nav-icon"><i class="fas fa-user"></i></a>
+          <a href="./login.html" class="nav-icon cart">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">0</span>
+          </a>
+      </div>
+  </nav>
+  </header>
+
+  <main>
+    <h1>Order Computer Parts</h1>
+    <form id="partsForm">
+
+      <!-- Processors -->
+      <section>
+        <h2>Processors</h2>
+        <div class="product-row">
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="./about images/galle branch.jpg" alt="AMD Ryzen 9" />
+              <figcaption>AMD Ryzen 9 - $420</figcaption>
+            </figure>
+            <input type="number" name="AMD Ryzen 9" min="0" data-price="420" />
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Graphic Cards -->
+      <section>
+        <h2>Graphic Cards</h2>
+        <div class="product-row">
+          <article class="product">
+            <figure>
+              <img src="images/rtx4090.jpg" alt="RTX 4090" />
+              <figcaption>NVIDIA RTX 4090 - $1500</figcaption>
+            </figure>
+            <input type="number" name="NVIDIA RTX 4090" min="0" data-price="1500" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/rtx4090.jpg" alt="RTX 4090" />
+              <figcaption>NVIDIA RTX 4090 - $1500</figcaption>
+            </figure>
+            <input type="number" name="NVIDIA RTX 4090" min="0" data-price="1500" />
+          </article>
+
+          <article class="product">
+            <figure>
+              <img src="images/rx7900.jpg" alt="AMD RX 7900" />
+              <figcaption>AMD RX 7900 - $950</figcaption>
+            </figure>
+            <input type="number" name="AMD RX 7900" min="0" data-price="950" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/rtx4090.jpg" alt="RTX 4090" />
+              <figcaption>NVIDIA RTX 4090 - $1500</figcaption>
+            </figure>
+            <input type="number" name="NVIDIA RTX 4090" min="0" data-price="1500" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/rtx4090.jpg" alt="RTX 4090" />
+              <figcaption>NVIDIA RTX 4090 - $1500</figcaption>
+            </figure>
+            <input type="number" name="NVIDIA RTX 4090" min="0" data-price="1500" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/rtx4090.jpg" alt="RTX 4090" />
+              <figcaption>NVIDIA RTX 4090 - $1500</figcaption>
+            </figure>
+            <input type="number" name="NVIDIA RTX 4090" min="0" data-price="1500" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/rtx4090.jpg" alt="RTX 4090" />
+              <figcaption>NVIDIA RTX 4090 - $1500</figcaption>
+            </figure>
+            <input type="number" name="NVIDIA RTX 4090" min="0" data-price="1500" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/rtx4090.jpg" alt="RTX 4090" />
+              <figcaption>NVIDIA RTX 4090 - $1500</figcaption>
+            </figure>
+            <input type="number" name="NVIDIA RTX 4090" min="0" data-price="1500" />
+          </article>
+        </div>
+      </section>
+
+      <!-- Motherboards -->
+      <section>
+        <h2>Motherboards</h2>
+        <div class="product-row">
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/asusrog.jpg" alt="ASUS ROG" />
+              <figcaption>ASUS ROG - $300</figcaption>
+            </figure>
+            <input type="number" name="ASUS ROG" min="0" data-price="300" />
+          </article>
+
+    
+        </div>
+      </section>
+
+      <!-- RAM -->
+      <section>
+        <h2>Memory (RAM)</h2>
+        <div class="product-row">
+          <article class="product">
+            <figure>
+              <img src="images/corsair16gb.jpg" alt="Corsair 16GB" />
+              <figcaption>Corsair 16GB - $90</figcaption>
+            </figure>
+            <input type="number" name="Corsair 16GB" min="0" data-price="90" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/corsair16gb.jpg" alt="Corsair 16GB" />
+              <figcaption>Corsair 16GB - $90</figcaption>
+            </figure>
+            <input type="number" name="Corsair 16GB" min="0" data-price="90" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/corsair16gb.jpg" alt="Corsair 16GB" />
+              <figcaption>Corsair 16GB - $90</figcaption>
+            </figure>
+            <input type="number" name="Corsair 16GB" min="0" data-price="90" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/corsair16gb.jpg" alt="Corsair 16GB" />
+              <figcaption>Corsair 16GB - $90</figcaption>
+            </figure>
+            <input type="number" name="Corsair 16GB" min="0" data-price="90" />
+          </article>
+        </div>
+      </section>
+
+      <!-- Storage -->
+      <section>
+        <h2>Storage Devices</h2>
+        <div class="product-row">
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+          <article class="product">
+            <figure>
+              <img src="images/samsungssd.jpg" alt="Samsung SSD 1TB" />
+              <figcaption>Samsung SSD 1TB - $130</figcaption>
+            </figure>
+            <input type="number" name="Samsung SSD 1TB" min="0" data-price="130" />
+          </article>
+        </div>
+      </section>
+
+      <div class="form-buttons">
+        <button type="button" onclick="updateOrderTable()">Add to Order</button>
+        <button type="button" onclick="saveToFavourites()">Add to Favourites</button>
+        <button type="button" onclick="applyFavourites()">Apply Favourites</button>
+        <button type="button" onclick="goToCheckout()">Buy Now</button>
+      </div>
+    </form>
+
+    <section>
+      <h2>Order Summary</h2>
+      <table id="orderTable">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Total</td>
+            <td id="totalPrice">$0.00</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Your Computer Store</p>
+  </footer>
+
+  <script src="./order.js"></script>
+</body>
+</html>

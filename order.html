@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout- GameVault</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./order.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">GameVault</div>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <label for="nav-toggle" class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+      </label>
+      <div class="navigation">
+          <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./upcoming.html" class="active">Upcoming Games</a></li>
+              <li class="dropdown">
+                  <a href="#">Accessories</a>
+                  <div class="dropdown-content">
+                      <a href="./consoles.html">Consoles</a>
+                      <a href="./peripherals.html">Peripherals</a>
+                  </div>
+              </li>
+              <li><a href="./games.html">Games</a></li>
+              <li><a href="./faq.html">FAQ</a></li>
+              <li><a href="./order.html">Order</a></li>
+              <li><a href="./checkout.html">Checkout</a></li>
+          </ul>
+      </div>
+      <div class="nav-buttons">
+          <a href="#" class="nav-icon"><i class="fas fa-user"></i></a>
+          <a href="#" class="nav-icon cart">
+              <i class="fas fa-shopping-cart"></i>
+              <span class="cart-count">0</span>
+          </a>
+      </div>
+  </nav>
+  </header>
+  
+  <div class="container">
+    <h1>Order Computer Parts</h1>
+
+    <form id="order-form">
+
+
+      <!-- Processors -->
+      <section>
+        <h2>Processors</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <img src="./order/img order/intel i5.jpg" alt="Intel i5" />
+            <h3>Intel i5</h3>
+            <p>LKR.7500</p>
+            <input type="number" name="Intel i5" data-price="7500" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/i77.jpg" alt="Intel i7" />
+            <h3>Intel i7</h3>
+            <p>LKR.9000</p>
+            <input type="number" name="Intel i7" data-price="9000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/AMD.jpg" alt="AMD Ryzen 5" />
+            <h3>Ryzen 5</h3>
+            <p>LKR.15000</p>
+            <input type="number" name="Ryzen 5" data-price="15000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/amd2.webp" alt="AMD Ryzen 7" />
+            <h3>Ryzen 7</h3>
+            <p>LKR.11000</p>
+            <input type="number" name="Ryzen 7" data-price="11000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/intel-i9-3.webp" alt="Intel i9" />
+            <h3>Intel i9</h3>
+            <p>LKR.5000</p>
+            <input type="number" name="Intel i9" data-price="5000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/ryz 9.jpg" alt="AMD Ryzen 9" />
+            <h3>Ryzen 9</h3>
+            <p>LKR.7000</p>
+            <input type="number" name="Ryzen 9" data-price="7000" min="0" value="0" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Graphic Cards -->
+      <section>
+        <h2>Graphic Cards</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <img src="./order/img order/67.png" alt="RTX 3060" />
+            <h3>RTX 3060</h3>
+            <p>LKR.8000</p>
+            <input type="number" name="RTX 3060" data-price="8000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/1000.png" alt="RTX 3070" />
+            <h3>RTX 3070</h3>
+            <p>LKR.9000</p>
+            <input type="number" name="RTX 3070" data-price="9000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/6600.webp" alt="RX 6600" />
+            <h3>RX 6600</h3>
+            <p>LKR.6000</p>
+            <input type="number" name="RX 6600" data-price="6000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/6700.png" alt="RX 6700XT" />
+            <h3>RX 6700 XT</h3>
+            <p>LKR.9000</p>
+            <input type="number" name="RX 6700 XT" data-price="9000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/rtx.png" alt="RTX 3080" />
+            <h3>RTX 3080</h3>
+            <p>LKR.7000</p>
+            <input type="number" name="RTX 3080" data-price="7000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/4091.webp" alt="RTX 4090" />
+            <h3>RTX 4090</h3>
+            <p>LKR.7000</p>
+            <input type="number" name="RTX 4090" data-price="7000" min="0" value="0" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Motherboards -->
+      <section>
+        <h2>Motherboards</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <img src="./order/img order/b550.webp" alt="ASUS B550" />
+            <h3>ASUS B550</h3>
+            <p>LKR.12000</p>
+            <input type="number" name="ASUS B550" data-price="12000" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/msi 650.png" alt="MSI MAG B650" />
+            <h3>MSI MAG B650</h3>
+            <p>LKR.10500</p>
+            <input type="number" name="MSI MAG B650" data-price="10500" min="0" value="0" />
+          </div>
+          <div class="product-card">
+            <img src="./order/img order/z790.png" alt="Z790 Hero" />
+            <h3>Z790 Hero</h3>
+            <p>LKR.9000</p>
+            <input type="number" name="Z790 Hero" data-price="9000" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/670 ace.png" alt="X670E ACE" />
+            <h3>X670E ACE</h3>
+            <p>LKR.7000</p>
+            <input type="number" name="X670E ACE" data-price="7000" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/tuf.png" alt="B650 TUF" />
+            <h3>B650 TUF</h3>
+            <p>LKR.9500</p>
+            <input type="number" name="B650 TUF" data-price="9500" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/elite.webp" alt="Z790 Elite" />
+            <h3>Z790 Elite</h3>
+            <p>LKR.12000</p>
+            <input type="number" name="Z790 Elite" data-price="12000" min="0" value="0" />
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Memory (RAM) -->
+      <section>
+        <h2>Memory (RAM)</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <img src="./order/img order/8gb.webp" alt="8GB DDR4" />
+            <h3>8GB DDR4</h3>
+            <p>LKR.400</p>
+            <input type="number" name="8GB DDR4" data-price="400" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/corsair.png" alt="Corsair LPX" />
+            <h3>Corsair LPX</h3>
+            <p>LKR.2000</p>
+            <input type="number" name="Corsair LPX" data-price="2000" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/gskill.webp" alt="G.Skill Trident" />
+            <h3>G.Skill Trident</h3>
+            <p>LKR.5000</p>
+            <input type="number" name="G.Skill Trident" data-price="5000" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/rip.webp" alt="Ripjaws V" />
+            <h3>Ripjaws V</h3>
+            <p>LKR.3500</p>
+            <input type="number" name="Ripjaws V" data-price="3500" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/kinston.png" alt="Kingston Fury" />
+            <h3>Kingston Fury</h3>
+            <p>LKR.750</p>
+            <input type="number" name="Kingston Fury" data-price="750" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/adata.png" alt="ADATA XPG" />
+            <h3>ADATA XPG</h3>
+            <p>LKR.1500</p>
+            <input type="number" name="ADATA XPG" data-price="1500" min="0" value="0" />
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Storage Devices -->
+      <section>
+        <h2>Storage Devices</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <img src="./order/img order/980pro.webp" alt="Samsung 980 Pro" />
+            <h3>Samsung 980 Pro</h3>
+            <p>LKR.5000</p>
+            <input type="number" name="Samsung 980 Pro" data-price="5000" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/wd sn.png" alt="WD SN850X" />
+            <h3>WD SN850X</h3>
+            <p>LKR.7000</p>
+            <input type="number" name="WD SN850X" data-price="7000" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/crucial.webp" alt="Crucial P5 Plus" />
+            <h3>Crucial P5 Plus</h3>
+            <p>LKR.6000</p>
+            <input type="number" name="Crucial P5 Plus" data-price="6000" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/king.png" alt="Kingston NV2" />
+            <h3>Kingston NV2</h3>
+            <p>LKR.8500</p>
+            <input type="number" name="Kingston NV2" data-price="8500" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/t7 sam.png" alt="Samsung T7" />
+            <h3>Samsung T7</h3>
+            <p>LKR.1500</p>
+            <input type="number" name="Samsung T7" data-price="1500" min="0" value="0" />
+          </div>
+
+          <div class="product-card">
+            <img src="./order/img order/wd sn.png" alt="1WD Blue" />
+            <h3>WD Blue</h3>
+            <p>LKR.5000</p>
+            <input type="number" name="WD Blue" data-price="5000" min="0" value="0" />
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Order Table -->
+      <section>
+        <h2>Order Summary</h2>
+        <table id="order-table">
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Qty</th>
+              <th>Unit Price</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3"><strong>Grand Total</strong></td>
+              <td id="grand-total">$0.00</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <button type="button" id="buy-now">Buy Now</button>
+        <button type="button" id="add-fav">Add to Favourites</button>
+        <button type="button" id="apply-fav">Apply Favourites</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="./order.js"></script>
+  <footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Your one-stop shop for all gaming needs</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./games.html">Games</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: info@gamevault.com</p>
+            <p>Phone: (555) 123-4567</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 GameVault. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
